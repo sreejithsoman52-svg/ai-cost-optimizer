@@ -4,11 +4,6 @@ Automated daily pipeline that finds wasted AWS spend, forecasts your bill,
 uses Claude to turn the findings into a plain-English report, and emails
 you a weekly summary.
 
-> **Governance note (Allianz):** this repo builds unattended, scheduled
-> automation with service credentials. If you intend to run this beyond a
-> one-off demo, register it as an EUC / AI Use Case with your OE IT
-> Function before deploying to a real AWS account.
-
 ## What's inside
 
 | Lambda              | Runs           | Does |
