@@ -1,0 +1,10 @@
+# Copy this file to terraform.tfvars and fill in real values.
+# terraform.tfvars is git-ignored — never commit real secrets.
+
+aws_region           = "eu-central-1"
+reports_bucket_name  = "my-org-ai-cost-reports-2026"   # must be globally unique
+anthropic_api_key    = "sk-ant-REPLACE-ME"
+sender_email         = "aws-alerts@yourcompany.com"      # must be able to click SES verification email
+recipient_email      = "you@yourcompany.com"
+monthly_budget_usd   = "1000"
+slack_webhook_url    = ""                                 # optional
